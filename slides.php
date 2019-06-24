@@ -1,7 +1,7 @@
 <div id="<?php echo $_GET['set'] ?>" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <?php
-      $n = sizeof(glob("img/1x/{$_GET['set']}/*")) - 1;
+      $n = sizeof(glob($_GET['url'])) - 1;
       echo "<li data-target=\"#{$_GET['set']}\" data-slide-to=\"0\" class=\"active\"></li>\n";
       if ($n < 0 ) $n = 0;
       while($n--) {
@@ -11,7 +11,7 @@
   </ol>
   <div class="carousel-inner">
     <?php
-      $files = glob("img/1x/{$_GET['set']}/*");
+      $files = glob($_GET['url']);
       $first = true;
       foreach ($files as $file) {
         if ($first) {

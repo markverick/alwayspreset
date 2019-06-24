@@ -11,8 +11,9 @@
   <title>Alwayspreset</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
   <!-- Custom fonts for this template -->
   <link href="css/fontawesome-all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -21,17 +22,38 @@
   <!-- Custom styles for this template -->
   <link href="css/shards.min.css" rel="stylesheet">
   <link href="css/theme.css" rel="stylesheet">
+  <!--<link href="css/absolute-center.css" rel="stylesheet">-->
 
 </head>
 
 <body id="page-top">
+ 
 
+  <!-- Modal -->
+  <div class="modal fade" id="preview" tabindex="-1" role="dialog" aria-labelledby="previewLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="previewLabel">ตัวอย่าง</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center hidden" id="slide">
+          
+        </div>
+        <div id="spinner" class="mx-auto spinner-border" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="./">Alwayspreset</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
+          Menu
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -52,76 +74,69 @@
 
   <!-- Header -->
   <header class="banner">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="text-white mx-auto pt-5">
-          Set 1
-        </h1>
-        <hr>
-        <h2 class="text-white lead mt-2 mb-5">
-          The Traveler
-        </h2>
-      </div>
-    </div>
-      
-  </header>
-
-  <!-- Content -->
-  <section class="container" id="slides">
-    <div class="card text-white">
-      <div class="card-img d-flex flex-row">
-        <?php
-          $files = glob("img/slides/set01/The Forest/*");
-          foreach ($files as $file) {
-            echo "        <img src=\"" . $file . "\" alt=\"Slide image\">\n";
-          }
-        ?>
-      </div>
-      <div class="card-img-overlay">
-        <h4 class="card-title">The Forest</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-       
-      </div>
-      <div class="col">
-        <h2>Set 1</h2>
-        <h3>The Traveler</h3>
-        <p>
+    <div class="py-1 container">
+      <h1 class="text-white">
+        Set 1
+      </h1>
+      <h2 class="text-white lead">
+        The Traveler
+      </h2>
+      <p class="text-white">
 พรีเซทที่นักท่องเที่ยวควรมี ไม่ว่าจะเดินทางไปที่ไหน ในเมือง,ป่า,ภูเขา ทะเล ธรรมชาติสวยๆ หรืออยากโชว์ไฟล์สไตล์
 ที่หรูหราน่าดึงดูดอย่างเช่น ในคาเฟ่,ถ่ายอาหาร,เครื่องดื่ม 
 The traveler ถือว่าเป็นพรีเซทเบสิกที่ควรจะมีไม่ว่าจะเป็นมือใหม่หัดถ่ายภาพ หรือว่าจะเป็นมืออาชีพ พรีเซทชุดนี้ควรมีติดตัว
 เพื่อเตรียมพร้อมทุกสถานการณ์ให้ได้ภาพที่สวย น่าดึงดูด
-        </p>
-        <a href="set1.html" class="btn btn-primary">ดูรายละเอียดเพิ่มเติม</a>
+      </p>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="row mb-2">
+            <div class="col-4 col-md-3 col-lg-2 justify-content-center d-flex align-items-center">
+              <i class="display-4 fas fa-camera text-white"></i>
+            </div>
+            <div class="col">
+              <p class="text-white lead mb-1">
+                เหมาะกับอะไรบ้าง
+              </p>
+              <p class="text-white">
+    The traveler จะสามารถแต่งได้ทั้งภาพถ่ายวิว และภาพถ่ายส่วนบุคคล
+              </p>  
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row mb-2">
+            <div class="col">
+              <p class="text-white lead mb-1">
+                ใครที่ควรมีพรีเซทชุดนี้
+              </p>
+              <p class="text-white">
+                มือใหม่ที่ไม่เคยแต่งภาพมาก่อนเลย-คนที่ถ่ายรูปเป็นประจำ , นักท่องเที่ยว/ตากล้องมืออาชีพ
+              </p>  
+            </div>
+            <div class="order-md-first col-4 col-md-3 col-lg-2 justify-content-center d-flex align-items-center">
+              <i class="display-4 fas fa-user text-white"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <hr>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-        <?php
-          $_GET['set']='set02';
-          include "slides.php"
-        ?>
-      </div>
-      <div class="col order-sm-first">
-        <h2>Set 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-        <?php
-          $_GET['set']='set03';
-          include "slides.php"
-        ?>
-      </div>
-      <div class="col">
-        <h2>Set 3</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
+  </header>
+
+  <!-- Content -->
+  <!-- Debug Trigger -->
+  <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#preview">-->
+  <!--  Launch Sample Modal-->
+  <!--</button>-->
+  
+  <section class="container py-4" id="gridview">
+    <?php
+      $_GET['set']="set01";
+      include "grid.php";
+    ?>
+  </section>
+  <section class="container hidden" id="slides">
+    <div id="set3" class="my-4">
+      
     </div>
   </section>
   <!-- Footer -->
@@ -140,9 +155,13 @@ The traveler ถือว่าเป็นพรีเซทเบสิกท�
 
   <!-- Custom scripts for this template -->
   <script src="js/nav-scroll.min.js"></script>
+  <script src="js/grid.js"></script>
   
   <!-- Shards -->
   <script src="js/shards.min.js"></script>
+  
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/236cc9cd4c.js"></script>
 </body>
 
 </html>

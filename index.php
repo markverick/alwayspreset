@@ -12,6 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
   <!-- Custom fonts for this template -->
   <link href="css/fontawesome-all.min.css" rel="stylesheet">
@@ -73,7 +74,8 @@
       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
         <?php
           $_GET['set']='set01';
-          include "slides.php"
+          $_GET['url']="img/1x/{$_GET['set']}/*";
+          include "slides.php";
         ?>
       </div>
       <div class="col">
@@ -93,7 +95,8 @@ The Traveler ถือว่าเป็นพรีเซทเบสิกท�
       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
         <?php
           $_GET['set']='set02';
-          include "slides.php"
+          $_GET['url']="img/1x/{$_GET['set']}/*";
+          include "slides.php";
         ?>
       </div>
       <div class="col order-sm-first">
@@ -113,7 +116,8 @@ The Traveler ถือว่าเป็นพรีเซทเบสิกท�
       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
         <?php
           $_GET['set']='set03';
-          include "slides.php"
+          $_GET['url']="img/1x/{$_GET['set']}/*";
+          include "slides.php";
         ?>
       </div>
       <div class="col">
@@ -150,6 +154,9 @@ The Traveler ถือว่าเป็นพรีเซทเบสิกท�
 
   <!-- Shards -->
   <script src="js/shards.min.js"></script>
+  
+   <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/236cc9cd4c.js"></script>
 </body>
 
 </html>
