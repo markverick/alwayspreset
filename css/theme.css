@@ -113,7 +113,17 @@
     -webkit-background-clip:text
 }
 
+.banner h1{
+    font-size: 3rem;
+    font-family:Kanit, serif;
+    font-size:3rem;
+    line-height:3rem;
+    letter-spacing:.8rem;
+    letter-spacing: .3rem;
+}
+
 .banner h2{
+    font-size: 1.8rem;
     max-width:20rem;
     letter-spacing: .3rem;
 }
@@ -125,6 +135,10 @@
 
 @media (min-width:768px){
     .masthead h1{
+        font-size:4rem;
+        line-height:4rem
+    }
+    .banner h1{
         font-size:4rem;
         line-height:4rem
     }
@@ -145,6 +159,12 @@
     }
     .banner{
         height:auto;
+    }
+    
+    .banner h1{
+        font-size:5.5rem;
+        line-height:5.5rem;
+        letter-spacing:.8rem
     }
 }
 .btn{

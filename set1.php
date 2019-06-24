@@ -59,13 +59,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#slides">Set 1</a>
+            <a class="nav-link js-scroll-trigger" href="#spec">รายละเอียด</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#set2">Download</a>
+            <a class="nav-link js-scroll-trigger" href="#gridview">ตัวอย่างสินค้า</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://www.facebook.com/alwayspreset/">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="https://www.facebook.com/alwayspreset/">ติดต่อเรา</a>
           </li>
         </ul>
       </div>
@@ -87,38 +87,7 @@
 The traveler ถือว่าเป็นพรีเซทเบสิกที่ควรจะมีไม่ว่าจะเป็นมือใหม่หัดถ่ายภาพ หรือว่าจะเป็นมืออาชีพ พรีเซทชุดนี้ควรมีติดตัว
 เพื่อเตรียมพร้อมทุกสถานการณ์ให้ได้ภาพที่สวย น่าดึงดูด
       </p>
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <div class="row mb-2">
-            <div class="col-4 col-md-3 col-lg-2 justify-content-center d-flex align-items-center">
-              <i class="display-4 fas fa-camera text-white"></i>
-            </div>
-            <div class="col">
-              <p class="text-white lead mb-1">
-                เหมาะกับอะไรบ้าง
-              </p>
-              <p class="text-white">
-    The traveler จะสามารถแต่งได้ทั้งภาพถ่ายวิว และภาพถ่ายส่วนบุคคล
-              </p>  
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="row mb-2">
-            <div class="col">
-              <p class="text-white lead mb-1">
-                ใครที่ควรมีพรีเซทชุดนี้
-              </p>
-              <p class="text-white">
-                มือใหม่ที่ไม่เคยแต่งภาพมาก่อนเลย-คนที่ถ่ายรูปเป็นประจำ , นักท่องเที่ยว/ตากล้องมืออาชีพ
-              </p>  
-            </div>
-            <div class="order-md-first col-4 col-md-3 col-lg-2 justify-content-center d-flex align-items-center">
-              <i class="display-4 fas fa-user text-white"></i>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </header>
 
@@ -127,7 +96,58 @@ The traveler ถือว่าเป็นพรีเซทเบสิกท�
   <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#preview">-->
   <!--  Launch Sample Modal-->
   <!--</button>-->
-  
+  <section class="container py-4" id="spec">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="row mb-2">
+          <div class="col-4 col-md-3 col-lg-2 justify-content-center d-flex align-items-center">
+            <i class="display-4 fas fa-camera "></i>
+          </div>
+          <div class="col">
+            <p class="lead mb-1">
+              เหมาะกับอะไรบ้าง
+            </p>
+            <p>
+  The traveler จะสามารถแต่งได้ทั้งภาพถ่ายวิว และภาพถ่ายส่วนบุคคล
+            </p>  
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col">
+            <p class="lead mb-1">
+              ใครที่ควรมีพรีเซทชุดนี้
+            </p>
+            <p>
+              มือใหม่ที่ไม่เคยแต่งภาพมาก่อนเลย-คนที่ถ่ายรูปเป็นประจำ , นักท่องเที่ยว/ตากล้องมืออาชีพ
+            </p>  
+          </div>
+          <div class="order-md-first col-4 col-md-3 col-lg-2 justify-content-center d-flex align-items-center">
+            <i class="display-4 fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col col-12 col-md-6">
+        <div class="row mb-2">
+          <div class="col-4 col-md-3 col-lg-2 justify-content-center d-flex align-items-center">
+            <i class="display-4 fas fa-palette "></i>
+          </div>
+          <div class="col">
+            <p class="lead mb-1">
+              จำนวนทั้งหมด 52 โทน
+            </p>
+            <ol>
+              <li>The forest (6)</li>
+              <li>On the beach (3)</li>
+              <li>Portrait (20)</li>
+              <li>Landscape (7)</li>
+              <li>City snap (11)</li>
+              <li>Cafe please (5)</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="container py-4" id="gridview">
     <?php
       $_GET['set']="set01";
