@@ -1,11 +1,10 @@
 <div id="<?php echo $_GET['set'] ?>" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <?php
-      $n = sizeof(glob($_GET['url'])) - 1;
+      $n = sizeof(glob($_GET['url']));
       echo "<li data-target=\"#{$_GET['set']}\" data-slide-to=\"0\" class=\"active\"></li>\n";
-      if ($n < 0 ) $n = 0;
-      while($n--) {
-        echo "        <li data-target=\"#{$_GET['set']}\" data-slide-to=\"0\"></li>\n";
+      for ($i = 1; $i < $n; $i++) {
+        echo "        <li data-target=\"#{$_GET['set']}\" data-slide-to=\"{$i}\"></li>\n";
       }
     ?>
   </ol>
@@ -19,7 +18,12 @@
         } else {
           echo "        <div class=\"carousel-item\">\n";
         }
-        echo "          <img class=\"d-block w-100\" src=\"{$file}\" alt=\"First slide\">\n";
+        echo "          <img class=\"w-100 d-block\" src=\"{$file}\" alt=\"First slide\">\n";
+        if ($_GET['hidecap']!=="1") {
+          echo "          <div class=\"carousel-caption d-block\">\n";
+          echo "            <h5 class=\"lead text-white\">" . basename(trim($file), ".jpg") . "</h5>\n";
+          echo "          </div>\n";
+        }
         echo "        </div>\n";
         $first = false;
       }

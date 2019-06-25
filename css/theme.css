@@ -326,9 +326,11 @@ section .col {
   padding-bottom: 32px;
 }
 
+#slide {
+    padding:0;
+}
 
-
-h1, h2, h3, h4, p, a, btn, .btn {
+h1, h2, h3, h4, h5, p, a, btn, .btn {
     font-family: Kanit, serif;
 }
 
@@ -336,6 +338,24 @@ h1, h2, h3, h4, p, a, btn, .btn {
     bottom:auto;
     border-radius:0;
     background:rgba(0,0,0,.5);
+}
+
+a.card {
+    cursor: pointer;
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: auto; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
 
 .hidden {
@@ -352,3 +372,9 @@ h1, h2, h3, h4, p, a, btn, .btn {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+
+.carousel h5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
