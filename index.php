@@ -47,7 +47,7 @@
             <a class="nav-link js-scroll-trigger" href="#set3">Set 3</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://www.facebook.com/alwayspreset/">ติดต่อเรา</a>
+            <a class="nav-link js-scroll-trigger" href="http://m.me/alwayspreset">ติดต่อเรา</a>
           </li>
         </ul>
       </div>
