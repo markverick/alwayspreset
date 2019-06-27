@@ -95,8 +95,8 @@
     width:100%;
     height:auto;
     padding-top:7rem;
-    padding-left:1.4rem;
-    padding-right:1.4rem;
+    /*padding-left:1.2rem;*/
+    /*padding-right:1.2rem;*/
     background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.6)),color-stop(75%,rgba(22,22,22,.8)),to(#161616)),url(../img/banner/set1.jpg);
     background:linear-gradient(to bottom,rgba(22,22,22,.6) 0,rgba(22,22,22,.8) 75%,#161616 100%),url(../img/banner/set1.jpg);
     background-position:center;
@@ -383,6 +383,11 @@ a.card {
     border-radius: 1rem;
 }
 
-.banner p {
+p {
     line-height: 1.8rem;
+}
+
+.container {
+    padding-left: 18px;
+    padding-right: 18px;
 }
