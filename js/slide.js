@@ -13,20 +13,23 @@
     id("slide").innerHTML="";
     $("#preview").modal();
     $.ajax({
-        url: "slides.php?set=tone1&url=img/slides/" + path + "/*",
+        url: "slides.php?set=tone1&url=slides/" + path,
         type: 'GET',
         success: function(res) {
           $("#slide").ready(function(){
             $("#slide").fadeIn(2000);
             $("#spinner").hide();
+            if(qs("#slide ol").innerText != "") {
+                let p = document.createElement("p");
+                p.innerText = "ไม่พบภาพตัวอย่าง อยู่ในระหว่างการปรับปรุง";
+                qs("#slide .carousel-inner").appendChild(p);
+            }
           });
-          id("slide").innerHTML = res;
         }
     });
-    // $("#gridview").fadeOut();
-    // $("#slides").fadeIn();
-    
   }
+
+  
   /* ------------------------------ Helper Functions ------------------------------ */
     /**
     * Returns the element that has the ID attribute with the specified value.

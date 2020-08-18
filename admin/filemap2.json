@@ -1,0 +1,193 @@
+{
+  "set1": {
+    "name": "Set 1",
+    "alias": "The Traveler",
+    "content": [
+    	{
+      		"id": "set1_1",
+      		"name": "Set 1: The Forest"
+    	},
+    	{
+      		"id": "set1_2",
+      		"name": "Set 1: On The Beach"
+    	},
+    	{
+      		"id": "set1_3",
+      		"name": "Set 1: Portrait"
+    	},
+    	{
+      		"id": "set1_4",
+      		"name": "Set 1: Landscape"
+    	},
+    	{
+      		"id": "set1_5",
+      		"name": "Set 1: City Snap"
+    	},
+    	{
+      		"id": "set1_6",
+      		"name": "Set 1: Cafe Please"
+    	},
+    	{
+      		"id": "set1_all",
+      		"name": "Set 1: All",
+      		"batch": true
+    	}
+		]
+  },
+  "set2": {
+    "name": "Set 2",
+    "alias": "All Day All Night Portrait",
+    "content": [
+    	{
+      		"id": "set2_1",
+      		"name": "Set 2: Moody"
+    	},
+    	{
+      		"id": "set2_2",
+      		"name": "Set 2: Be Lively"
+    	},
+    	{
+      		"id": "set2_3",
+      		"name": "Set 2: Hypebeast"
+    	},
+    	{
+      		"id": "set2_4",
+      		"name": "Set 2: Jap Style"
+    	},
+    	{
+      		"id": "set2_5",
+      		"name": "Set 2: Red-Black"
+    	},
+    	{
+      		"id": "set2_6",
+      		"name": "Set 2: Special",
+      		"index": true
+    	},
+    	{
+      		"id": "set2_all",
+      		"name": "Set 2: All",
+      		"batch": true
+    	}
+		]
+  },
+  "set3": {
+    "name": "Set 3",
+    "alias": "Around the World",
+    "content": [
+    	{
+      		"id": "set3_1",
+      		"name": "Set 3: Nature in Mind"
+    	},
+    	{
+      		"id": "set3_2",
+      		"name": "Set 3: Sea Breeze"
+    	},
+    	{
+      		"id": "set3_3",
+      		"name": "Set 3: Deep Sea"
+    	},
+    	{
+      		"id": "set3_4",
+      		"name": "Set 3: Mystery Forest"
+    	},
+    	{
+      		"id": "set3_5",
+      		"name": "Set 3: Greenish Film"
+    	},
+    	{
+      		"id": "set3_6",
+      		"name": "Set 3: Night Life"
+    	},
+    	{
+      		"id": "set3_7",
+      		"name": "Set 3: Day Street"
+    	},
+    	{
+      		"id": "set3_8",
+      		"name": "Set 3: Cafe Mood"
+    	},
+    	{
+      		"id": "set3_9",
+      		"name": "Set 3: Delicious"
+    	},
+    	{
+      		"id": "set3_10",
+      		"name": "Set 3: So Cute Pastel"
+    	},
+    	{
+      		"id": "set3_11",
+      		"name": "Set 3: Chilly Snow"
+    	},
+    	{
+      		"id": "set3_all",
+      		"name": "Set 3: All",
+      		"batch": true
+    	}
+		]
+  },
+  "set4": {
+    "name": "Set 4",
+    "id": "set4",
+    "alias": "Dark Vintage Film",
+    "content": [
+    	{
+      		"id": "set4_1",
+      		"name": "Set 4: Urban"
+    	},
+    	{
+      		"id": "set4_2",
+      		"name": "Set 4: Architecture"
+    	},
+    	{
+      		"id": "set4_3",
+      		"name": "Set 4: Film"
+    	},
+    	{
+      		"id": "set4_4",
+      		"name": "Set 4: Dark"
+    	},
+    	{
+      		"id": "set4_5",
+      		"name": "Set 4: Teal"
+    	},
+    	{
+      		"id": "set4_all",
+      		"name": "Set 4: All",
+      		"batch": true
+    	}
+		]
+  },
+  "seta": {
+    "name": "Set A",
+    "alias": "Limited Set A",
+    "content": [
+    	{
+      		"id": "set_a",
+      		"name": "Set Limited: Set A",
+      		"index": true
+    	}
+		]
+  },
+  "setb": {
+    "name": "Set B",
+    "alias": "Limited Set A",
+    "content": [
+    	{
+      		"id": "set_b",
+      		"name": "Set Limited: Set A",
+      		"index": true
+    	}
+		]
+  },
+  "setc": {
+    "name": "Set C",
+    "alias": "Limited Set C",
+    "content": [
+    	{
+      		"id": "set_c",
+      		"name": "Set Limited: Set C",
+      		"index": true
+    	}
+		]
+  }
+}

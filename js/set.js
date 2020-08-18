@@ -3,9 +3,11 @@
   
   let SET = id("setNum").innerText;
   function init() {
-    loadGrid();
+    let sets = qsa("#gridview a");
+    for (let i = 0; i < sets.length; i++) {
+      sets[i].addEventListener("click", loadPreview);
+    }
   }
-  
   function loadGrid() {
     $.ajax({
       url: "set.php?set=" + SET,
@@ -42,7 +44,7 @@
     id("slide").innerHTML="";
     $("#preview").modal();
     $.ajax({
-        url: "slides.php?set=tone1&url=img/slides/" + this.id + "/*",
+        url: "slides.php?set=tone1&url=slides/" + this.id,
         type: 'GET',
         success: function(res) {
           $("#slide").ready(function(){
@@ -50,11 +52,26 @@
             $("#spinner").hide();
           });
           id("slide").innerHTML = res;
+          if(!qs("#slide .carousel-indicators").hasChildNodes()) {
+            let p = document.createElement("p");
+            p.innerText = "อยู่ในระหว่างการปรับปรุง";
+            qs("#slide .carousel-inner").appendChild(p);
+            qs(".modal-title").innerText = "ไม่พบภาพตัวอย่าง";
+          } else {
+            qs(".modal-title").innerText = "กดซ้ายขวาเพื่อดูโทนภาพ";
+          }
+          // qs(".carousel-control-prev").addEventListener("click", updateHeader);
+          // qs(".carousel-control-next").addEventListener("click", updateHeader);
+          // let li = qsa(".carousel-indicators li");
+          // for (let i = 0; i < li.length; i++) {
+          //   li[i].addEventListener("click", updateHeader);
+          // }
         }
     });
-    // $("#gridview").fadeOut();
-    // $("#slides").fadeIn();
-    
+  }
+
+  function updateHeader() {
+    qs(".modal-title").innerText = qs(".carousel-item.active h5").innerText;
   }
   /* ------------------------------ Helper Functions ------------------------------ */
     /**

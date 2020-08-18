@@ -1,0 +1,64 @@
+#mainNav .navbar-toggler{
+    color:#414546;
+    border:1px solid #414546
+}
+@media (min-width:992px){
+    #mainNav.navbar-shrink .nav-link:hover{
+        color:#414546
+    }
+    #mainNav.navbar-shrink .nav-link:active{
+        color:#818385
+    }
+    #mainNav.navbar-shrink .nav-link.active{
+        color:#414546;
+        border-bottom:.25rem solid #414546
+    }
+}
+
+.btn-primary{
+    background-color:#414546
+}
+.btn-primary:hover{
+    background-color:#272829
+}
+.btn-primary:focus{
+    background-color:#272829;
+}
+.btn-primary:active{
+    background-color:#818385!important
+}
+@media (min-width:992px){
+    .projects-section .featured-text{
+        border-left:.5rem solid #414546
+    }
+}
+@media (min-width:992px){
+    .projects-section .project-text hr{
+        border-color:#414546;
+    }
+}
+.contact-section .card{
+    border-bottom:.25rem solid #414546
+}
+.contact-section .card hr{
+    border-color:#414546;
+}
+a{
+    color:#414546
+}
+a:focus,a:hover{
+    color:#272829
+}
+.text-primary{
+    color:#414546!important
+}
+
+.banner {
+  background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.6)),color-stop(75%,rgba(22,22,22,.8)),to(#161616)),url(../img/banner/setb.jpg);
+  background:linear-gradient(to bottom,rgba(22,22,22,.6) 0,rgba(22,22,22,.8) 75%,#161616 100%),url(../img/banner/setb.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover
+  
+}

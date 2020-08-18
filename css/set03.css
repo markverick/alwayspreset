@@ -1,0 +1,69 @@
+#mainNav .navbar-toggler{
+    color:#f69e47;
+    border:1px solid #f69e47
+}
+@media (min-width:992px){
+    #mainNav.navbar-shrink .nav-link:hover{
+        color:#f69e47
+    }
+    #mainNav.navbar-shrink .nav-link:active{
+        color:#8a6f54
+    }
+    #mainNav.navbar-shrink .nav-link.active{
+        color:#f69e47;
+        border-bottom:.25rem solid #f69e47
+    }
+}
+
+.btn-primary{
+    background-color:#f69e47
+}
+.btn-primary:hover{
+    background-color:#d6934f
+}
+.btn-primary:focus{
+    background-color:#d6934f;
+}
+.btn-primary:active{
+    background-color:#8a6f54!important
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #8a6f54!important
+}
+@media (min-width:992px){
+    .projects-section .featured-text{
+        border-left:.5rem solid #f69e47
+    }
+}
+@media (min-width:992px){
+    .projects-section .project-text hr{
+        border-color:#f69e47;
+    }
+}
+.contact-section .card{
+    border-bottom:.25rem solid #f69e47
+}
+.contact-section .card hr{
+    border-color:#f69e47;
+}
+a{
+    color:#f69e47
+}
+a:focus,a:hover{
+    color:#5e4e3d
+}
+.text-primary{
+    color:#f69e47!important
+}
+
+.banner {
+  background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.6)),color-stop(75%,rgba(22,22,22,.8)),to(#161616)),url(../img/banner/set3.jpg);
+  background:linear-gradient(to bottom,rgba(22,22,22,.6) 0,rgba(22,22,22,.8) 75%,#161616 100%),url(../img/banner/set3.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover
+  
+}

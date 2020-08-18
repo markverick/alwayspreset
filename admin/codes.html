@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Alwayspreset - Edit Codes</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
+  <!-- Custom fonts for this template -->
+  <link href="../css/fontawesome-all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/shards.min.css" rel="stylesheet">
+  <link href="../css/theme.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+  <!-- Modal -->
+  <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="editInfo" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editInfo">Edit Entry</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="editModal">
+            <div class="form-group">
+              <label for="edit-note" class="col-form-label">Note:</label>
+              <input name="note" type="text" class="form-control" id="editNote">
+            </div>
+            <div class="form-group">
+              <label for="edit-expr" class="col-form-label">Expiration Date:</label>
+              <input name="expr" type="date" class="form-control" id="editExpr">
+              <!-- <textarea class="form-control" id="edit-code"></textarea> -->
+            </div>
+            <input type="text" name="id" id="editId" class="d-none">
+            <h3>Set 1</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="set1_all" name="set1_all">
+              <label class="form-check-label" for="set1_all">All</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s1" type="checkbox" id="set1_1" name="set1_1">
+              <label class="form-check-label" for="set1_1">The Forest</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s1" type="checkbox" id="set1_2" name="set1_2">
+              <label class="form-check-label" for="set1_2">On The Beach</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s1" type="checkbox" id="set1_3" name="set1_3">
+              <label class="form-check-label" for="set1_3">Portrait</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s1" type="checkbox" id="set1_4" name="set1_4">
+              <label class="form-check-label" for="set1_4">Landscape</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s1" type="checkbox" id="set1_5" name="set1_5">
+              <label class="form-check-label" for="set1_5">City Snap</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s1" type="checkbox" id="set1_6" name="set1_6">
+              <label class="form-check-label" for="set1_6">Cafe Please</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s1" type="checkbox" id="set1_ny" name="set1_ny">
+              <label class="form-check-label" for="set1_ny">New Year Special</label>
+            </div>
+            <h3>Set 2</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="set2_all" name="set2_all">
+              <label class="form-check-label" for="set2_all">All</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s2" type="checkbox" id="set2_1" name="set2_1">
+              <label class="form-check-label" for="set2_1">Moody</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s2" type="checkbox" id="set2_2" name="set2_2">
+              <label class="form-check-label" for="set2_2">Be Lively</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s2" type="checkbox" id="set2_3" name="set2_3">
+              <label class="form-check-label" for="set2_3">Hypebeast</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s2" type="checkbox" id="set2_4" name="set2_4">
+              <label class="form-check-label" for="set2_4">Jap Style</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s2" type="checkbox" id="set2_5" name="set2_5">
+              <label class="form-check-label" for="set2_5">Red-Black</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s2" type="checkbox" id="set2_6" name="set2_6">
+              <label class="form-check-label" for="set2_6">Special</label>
+            </div>
+            <h3>Set 3</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="set3_all" name="set3_all">
+              <label class="form-check-label" for="set3_all">All</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_1" name="set3_1">
+              <label class="form-check-label" for="set3_1">Nature in Mind</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_2" name="set3_2">
+              <label class="form-check-label" for="set3_2">Sea Breeze</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_3" name="set3_3">
+              <label class="form-check-label" for="set3_3">Deep Sea</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_4" name="set3_4">
+              <label class="form-check-label" for="set3_4">Mystery Forest</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_5" name="set3_5">
+              <label class="form-check-label" for="set3_5">Greenish Film</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_6" name="set3_6">
+              <label class="form-check-label" for="set3_6">Night Life</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_7" name="set3_7">
+              <label class="form-check-label" for="set3_7">Day Street</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_8" name="set3_8">
+              <label class="form-check-label" for="set3_8">Cafe Mood</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_9" name="set3_9">
+              <label class="form-check-label" for="set3_9">Delicious</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_10" name="set3_10">
+              <label class="form-check-label" for="set3_10">So Cute Pastel</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s3" type="checkbox" id="set3_11" name="set3_11">
+              <label class="form-check-label" for="set3_11">Chilly Snow</label>
+            </div>
+            <h3>Set 4</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="set4_all" name="set4_all">
+              <label class="form-check-label" for="set4_all">All</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s4" type="checkbox" id="set4_1" name="set4_1">
+              <label class="form-check-label" for="set4_1">Urban</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s4" type="checkbox" id="set4_2" name="set4_2">
+              <label class="form-check-label" for="set4_2">Architecture</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s4" type="checkbox" id="set4_3" name="set4_3">
+              <label class="form-check-label" for="set4_3">Film</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s4" type="checkbox" id="set4_4" name="set4_4">
+              <label class="form-check-label" for="set4_4">Dark</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s4" type="checkbox" id="set4_5" name="set4_5">
+              <label class="form-check-label" for="set4_5">Teal</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s4" type="checkbox" id="set4_film" name="set4_film">
+              <label class="form-check-label" for="set4_film">Original Film</label>
+            </div>
+            <h3>Set 5</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="set5_all" name="set5_all">
+              <label class="form-check-label" for="set5_all">All</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s5" type="checkbox" id="set5_1" name="set5_1">
+              <label class="form-check-label" for="set5_1">Bright Cafe</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s5" type="checkbox" id="set5_2" name="set5_2">
+              <label class="form-check-label" for="set5_2">Colorful Cafe</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s5" type="checkbox" id="set5_3" name="set5_3">
+              <label class="form-check-label" for="set5_3">Korea</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input s5" type="checkbox" id="set5_4" name="set5_4">
+              <label class="form-check-label" for="set5_4">Lamoon</label>
+            </div>
+            <h3>Special</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="set_a" name="set_a">
+              <label class="form-check-label" for="set_a">Set A</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="set_b" name="set_b">
+              <label class="form-check-label" for="set_b">Set B</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="set_c" name="set_c">
+              <label class="form-check-label" for="set_c">Set C</label>
+            </div>
+            <h3>Mini</h3>
+             <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="sets_1" name="sets_1">
+              <label class="form-check-label" for="sets_1">Earth Tone</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="sets_2" name="sets_2">
+              <label class="form-check-label" for="sets_2">Naiipa</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="sets_3" name="sets_3">
+              <label class="form-check-label" for="sets_3">Street</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="sets_4" name="sets_4">
+              <label class="form-check-label" for="sets_4">Coast</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="sets_5" name="sets_5">
+              <label class="form-check-label" for="sets_5">Film Tone</label>
+            </div>
+            <h3>Free</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="setf_1" name="setf_1">
+              <label class="form-check-label" for="setf_1">4Element</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="setf_2" name="setf_2">
+              <label class="form-check-label" for="setf_2">Eternity</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="setf_3" name="setf_3">
+              <label class="form-check-label" for="setf_3">Premium Lifetime</label>
+            </div>
+          </form>
+          <div id="listDl"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button id="save" type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-shrink">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="./"><strong>Admin</strong>preset</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          เมนู
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a target="_blank" class="nav-link js-scroll-trigger" href="/purchase.html">หน้าสั่งซื้อ</a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link js-scroll-trigger" href="/download.html">หน้าดาวน์โหลด</a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link js-scroll-trigger" href="codes.html">แก้รหัส</a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link js-scroll-trigger" href="release.html">ยืนยันการสั่งซื้อ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Body -->
+  <section class="container mb-4">
+    <div class="card card-body">
+      <h2>แก้ไขรหัสดาวน์โหลด</h2>
+      <div class="input-group mb-3">
+        <input class="form-control" id="numRow" value="10">
+        <div class="input-group-append">
+          <btn id="filter" class="btn btn-sm btn-primary">เลือกจำนวนแถว</btn>
+        </div>
+      </div>
+      <!-- Table -->
+      <div class="table-responsive">
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">รหัส</th>
+              <th scope="col">บันทึกช่วยจำ</th>
+              <th scope="col">วันที่สร้าง</th>
+              <th scope="col">วันหมดอายุ</th>
+              <th scope="col">แก้ไข</th>
+              <th scope="col">ลบ</th>
+            </tr>
+          </thead>
+          <tbody id="table">
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+    <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Alwayspreset 2019
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="../js/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+
+  <!-- <script src="../js/set.js"></script> -->
+  <script src="codes3.js"></script>
+  <script src="index.js"></script>
+  
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/236cc9cd4c.js"></script>
+</body>
+
+</html>

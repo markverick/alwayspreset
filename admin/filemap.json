@@ -1,0 +1,447 @@
+[
+  {
+    "name":"Set 1",
+    "id":"set1",
+    "key":"set1_all",
+    "alias":"The Traveler",
+    "content":[
+      {
+        "id":"set1_1",
+        "name":"Set 1: The Forest"
+      },
+      {
+        "id":"set1_2",
+        "name":"Set 1: On The Beach"
+      },
+      {
+        "id":"set1_3",
+        "name":"Set 1: Portrait"
+      },
+      {
+        "id":"set1_4",
+        "name":"Set 1: Landscape"
+      },
+      {
+        "id":"set1_5",
+        "name":"Set 1: City Snap"
+      },
+      {
+        "id":"set1_6",
+        "name":"Set 1: Cafe Please"
+      },
+      {
+        "id":"set1_all",
+        "name":"Set 1: ทั้งหมด",
+        "batch":true
+      }
+    ]
+  },
+  {
+    "name":"Set 1 Pro",
+    "id":"set1p",
+    "key":"set1_allp",
+    "alias":"The Traveler + New Year",
+    "content":[
+      {
+        "id":"set1_1",
+        "name":"Set 1: The Forest"
+      },
+      {
+        "id":"set1_2",
+        "name":"Set 1: On The Beach"
+      },
+      {
+        "id":"set1_3",
+        "name":"Set 1: Portrait"
+      },
+      {
+        "id":"set1_4",
+        "name":"Set 1: Landscape"
+      },
+      {
+        "id":"set1_5",
+        "name":"Set 1: City Snap"
+      },
+      {
+        "id":"set1_6",
+        "name":"Set 1: Cafe Please"
+      },
+      {
+        "id":"set1_ny",
+        "name":"Set 1: New Year Special",
+        "index":true
+      },
+      {
+        "id":"set1_allp",
+        "name":"Set 1 Pro: ทั้งหมด",
+        "batch":true
+      }
+    ]
+  },
+  {
+    "name":"Set 2",
+    "id":"set2",
+    "key":"set2_all",
+    "alias":"All Day All Night Portrait",
+    "content":[
+      {
+        "id":"set2_1",
+        "name":"Set 2: Moody"
+      },
+      {
+        "id":"set2_2",
+        "name":"Set 2: Be Lively"
+      },
+      {
+        "id":"set2_3",
+        "name":"Set 2: Hypebeast"
+      },
+      {
+        "id":"set2_4",
+        "name":"Set 2: Jap Style"
+      },
+      {
+        "id":"set2_5",
+        "name":"Set 2: Red-Black"
+      },
+      {
+        "id":"set2_6",
+        "name":"Set 2: Special",
+        "index":true
+      },
+      {
+        "id":"set2_all",
+        "name":"Set 2: ทั้งหมด",
+        "batch":true
+      }
+    ]
+  },
+  {
+    "name":"Set 3",
+    "id":"set3",
+    "key":"set3_all",
+    "alias":"Around the World",
+    "content":[
+      {
+        "id":"set3_1",
+        "name":"Set 3: Nature in Mind"
+      },
+      {
+        "id":"set3_2",
+        "name":"Set 3: Sea Breeze"
+      },
+      {
+        "id":"set3_3",
+        "name":"Set 3: Deep Sea"
+      },
+      {
+        "id":"set3_4",
+        "name":"Set 3: Mystery Forest"
+      },
+      {
+        "id":"set3_5",
+        "name":"Set 3: Greenish Film"
+      },
+      {
+        "id":"set3_6",
+        "name":"Set 3: Night Life"
+      },
+      {
+        "id":"set3_7",
+        "name":"Set 3: Day Street"
+      },
+      {
+        "id":"set3_8",
+        "name":"Set 3: Cafe Mood"
+      },
+      {
+        "id":"set3_9",
+        "name":"Set 3: Delicious"
+      },
+      {
+        "id":"set3_10",
+        "name":"Set 3: So Cute Pastel"
+      },
+      {
+        "id":"set3_11",
+        "name":"Set 3: Chilly Snow"
+      },
+      {
+        "id":"set3_all",
+        "name":"Set 3: ทั้งหมด",
+        "batch":true
+      }
+    ]
+  },
+  {
+    "name":"Set 4",
+    "id":"set4",
+    "key":"set4_all",
+    "alias":"Dark Vintage Film",
+    "content":[
+      {
+        "id":"set4_1",
+        "name":"Set 4: Urban"
+      },
+      {
+        "id":"set4_2",
+        "name":"Set 4: Architecture"
+      },
+      {
+        "id":"set4_3",
+        "name":"Set 4: Film"
+      },
+      {
+        "id":"set4_4",
+        "name":"Set 4: Dark"
+      },
+      {
+        "id":"set4_5",
+        "name":"Set 4: Teal"
+      },
+      {
+        "id":"set4_all",
+        "name":"Set 4: ทั้งหมด",
+        "batch":true
+      }
+    ]
+  },
+  {
+    "name":"Set 4 Pro",
+    "id":"set4p",
+    "key":"set4_allp",
+    "alias":"Dark Vintage + Original Film",
+    "content":[
+      {
+        "id":"set4_1",
+        "name":"Set 4: Urban"
+      },
+      {
+        "id":"set4_2",
+        "name":"Set 4: Architecture"
+      },
+      {
+        "id":"set4_3",
+        "name":"Set 4: Film"
+      },
+      {
+        "id":"set4_4",
+        "name":"Set 4: Dark"
+      },
+      {
+        "id":"set4_5",
+        "name":"Set 4: Teal"
+      },
+      {
+        "id":"set4_film",
+        "name":"Set 4: Original Film",
+        "index":true
+      },
+      {
+        "id":"set4_allp",
+        "name":"Set 4 Pro: ทั้งหมด",
+        "batch":true
+      }
+    ]
+  },
+  {
+    "name":"Cafe Hopper",
+    "id":"set5",
+    "key":"set5",
+    "alias":"Cafe Hopper",
+    "content":[
+      {
+        "id":"set5_1",
+        "name":"Cafe Hopper: Bright Cafe"
+      },
+      {
+        "id":"set5_2",
+        "name":"Cafe Hopper: Bright Portrait"
+      },
+      {
+        "id":"set5_3",
+        "name":"Cafe Hopper: Brownie and Coffee"
+      },
+      {
+        "id":"set5_4",
+        "name":"Cafe Hopper: Coffee or Me"
+      },
+      {
+        "id":"set5_5",
+        "name":"Cafe Hopper: Colorful Cafe"
+      },
+      {
+        "id":"set5_6",
+        "name":"Cafe Hopper: Dark Coffee"
+      },
+      {
+        "id":"set5_7",
+        "name":"Cafe Hopper: Green Cafe"
+      },
+      {
+        "id":"set5_8",
+        "name":"Cafe Hopper: Korea"
+      },
+      {
+        "id":"set5_9",
+        "name":"Cafe Hopper: Lamoon"
+      },
+      {
+        "id":"set5_10",
+        "name":"Cafe Hopper: Old Cafe"
+      },
+      {
+        "id":"set5_11",
+        "name":"Cafe Hopper: Orange Gray"
+      },
+      {
+        "id":"set5_12",
+        "name":"Cafe Hopper: Peach Tone"
+      },
+      {
+        "id":"set5_13",
+        "name":"Cafe Hopper: So Blue"
+      },
+      {
+        "id":"set5_14",
+        "name":"Cafe Hopper: Strawberry"
+      },
+      {
+        "id":"set5_15",
+        "name":"Cafe Hopper: Vintage Cafe"
+      },
+      {
+        "id":"set5_all",
+        "name":"Cafe Hopper: ทั้งหมด",
+        "batch":true
+      }
+    ]
+  },
+  {
+    "name":"Set A",
+    "id":"seta",
+    "alias":"Limited Set A",
+    "content":[
+      {
+        "id":"set_a",
+        "name":"Set Limited: Set A",
+        "index":true
+      }
+    ]
+  },
+  {
+    "name":"Set B",
+    "id":"setb",
+    "alias":"Limited Set B",
+    "content":[
+      {
+        "id":"set_b",
+        "name":"Set Limited: Set B",
+        "index":true
+      }
+    ]
+  },
+  {
+    "name":"Set C",
+    "id":"setc",
+    "alias":"Limited Set C",
+    "content":[
+      {
+        "id":"set_c",
+        "name":"Set Limited: Set C",
+        "index":true
+      }
+    ]
+  },
+  {
+    "name":"Earth Tone",
+    "id":"sets1",
+    "alias":"Set Mini 1",
+    "content":[
+      {
+        "id":"sets_1",
+        "name":"Earth Tone"
+      }
+    ]
+  },
+  {
+    "name":"Naiipa",
+    "id":"sets2",
+    "alias":"Set Mini 2",
+    "content":[
+      {
+        "id":"sets_2",
+        "name":"Naiipa"
+      }
+    ]
+  },
+  {
+    "name":"Street",
+    "id":"sets3",
+    "alias":"Set Mini 3",
+    "content":[
+      {
+        "id":"sets_3",
+        "name":"Street"
+      }
+    ]
+  },
+  {
+    "name":"Coast",
+    "id":"sets4",
+    "alias":"Set Mini 4",
+    "content":[
+      {
+        "id":"sets_4",
+        "name":"Coast"
+      }
+    ]
+  },
+  {
+    "name":"Film Tone",
+    "id":"sets5",
+    "alias":"Set Mini 5",
+    "content":[
+      {
+        "id":"sets_5",
+        "name":"Film Tone"
+      }
+    ]
+  },
+  {
+    "name":"4Element",
+    "id":"setf1",
+    "alias":"Set Free 1",
+    "content":[
+      {
+        "id":"setf_1",
+        "name":"4Element",
+        "index":true
+      }
+    ]
+  },
+  {
+    "name":"Eternity",
+    "id":"setf2",
+    "alias":"Set Free 2",
+    "content":[
+      {
+        "id":"setf_2",
+        "name":"Eternity",
+        "index":true
+      }
+    ]
+  },
+  {
+    "name":"Premium Lifetime",
+    "id":"setf3",
+    "alias":"Set Free 3",
+    "content":[
+      {
+        "id":"setf_3",
+        "name":"Premium Lifetime",
+        "index":true
+      }
+    ]
+  }
+]

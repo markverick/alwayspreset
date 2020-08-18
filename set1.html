@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Alwayspreset</title>
+  <title>Alwayspreset - Set 1</title>
 
   <!-- Bootstrap core CSS -->
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
@@ -23,10 +23,27 @@
   <link href="css/shards.min.css" rel="stylesheet">
   <link href="css/theme.css" rel="stylesheet">
   <!--<link href="css/absolute-center.css" rel="stylesheet">-->
-
+  <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '379924209574706');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=379924209574706&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <body id="page-top">
+  <script src="js/pixel.js"></script>
   <p class="d-none" id="setNum">set01</p>
 
   <!-- Modal -->
@@ -53,7 +70,7 @@
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="./">Alwayspreset</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
+          เมนู
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -65,7 +82,10 @@
             <a class="nav-link js-scroll-trigger" href="#gridview">ตัวอย่างสินค้า</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="http://m.me/alwayspreset">ติดต่อเรา</a>
+            <a id="contact" target="_blank" class="nav-link js-scroll-trigger" href="http://m.me/alwayspreset">ติดต่อเรา</a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link js-scroll-trigger" href="download.html">ดาวน์โหลด</a>
           </li>
         </ul>
       </div>
@@ -87,7 +107,7 @@
 The traveler ถือว่าเป็นพรีเซทเบสิกที่ควรจะมีไม่ว่าจะเป็นมือใหม่หัดถ่ายภาพ หรือว่าจะเป็นมืออาชีพ พรีเซทชุดนี้ควรมีติดตัว
 เพื่อเตรียมพร้อมทุกสถานการณ์ให้ได้ภาพที่สวย น่าดึงดูด
       </p>
-      
+      <a id="purchase" data-set="set1" target="_blank" class="text-white btn btn-primary mb-4" href="purchase.html">สั่งซื้อสินค้า</a> 
     </div>
   </header>
 
@@ -148,14 +168,15 @@ The traveler ถือว่าเป็นพรีเซทเบสิกท�
       </div>
     </div>
   </section>
+  
   <section class="container py-4" id="gridview">
     <div class="row justify-content-center">
-      
-    </div>
-  </section>
-  <section class="container hidden" id="slides">
-    <div id="set3" class="my-4">
-      
+      <div class="p-2 col-sm-12 col-md-6 col-lg-6 col-xl-4"><a class="card" id="set01/tone1"><img class="card-img-top d-block w-100" src="img/1x/set01/1.jpg"><btn class="btn btn-primary">ตัวอย่างภาพเซ็ตนี้</btn></a></div>
+      <div class="p-2 col-sm-12 col-md-6 col-lg-6 col-xl-4"><a class="card" id="set01/tone2"><img class="card-img-top d-block w-100" src="img/1x/set01/2.jpg"><btn class="btn btn-primary">ตัวอย่างภาพเซ็ตนี้</btn></a></div>
+      <div class="p-2 col-sm-12 col-md-6 col-lg-6 col-xl-4"><a class="card" id="set01/tone3"><img class="card-img-top d-block w-100" src="img/1x/set01/3.jpg"><btn class="btn btn-primary">ตัวอย่างภาพเซ็ตนี้</btn></a></div>
+      <div class="p-2 col-sm-12 col-md-6 col-lg-6 col-xl-4"><a class="card" id="set01/tone4"><img class="card-img-top d-block w-100" src="img/1x/set01/4.jpg"><btn class="btn btn-primary">ตัวอย่างภาพเซ็ตนี้</btn></a></div>
+      <div class="p-2 col-sm-12 col-md-6 col-lg-6 col-xl-4"><a class="card" id="set01/tone5"><img class="card-img-top d-block w-100" src="img/1x/set01/5.jpg"><btn class="btn btn-primary">ตัวอย่างภาพเซ็ตนี้</btn></a></div>
+      <div class="p-2 col-sm-12 col-md-6 col-lg-6 col-xl-4"><a class="card" id="set01/tone6"><img class="card-img-top d-block w-100" src="img/1x/set01/6.jpg"><btn class="btn btn-primary">ตัวอย่างภาพเซ็ตนี้</btn></a></div>
     </div>
   </section>
   <!-- Footer -->

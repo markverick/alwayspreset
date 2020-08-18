@@ -27,6 +27,11 @@
 .btn-primary:active{
     background-color:#735387!important
 }
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #735387!important
+}
 @media (min-width:992px){
     .projects-section .featured-text{
         border-left:.5rem solid #be8ddd
